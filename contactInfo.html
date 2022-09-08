@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="text">
+    <h1 class="text-3xl text-center">Please Contact Me</h1>
+    <div>
+      <p>Name</p>
+      <input type="text" class="border-2"  id="name-field"/>
+      <button id="btn-delete-name" class="p-2 bg-blue-200 rounded-md">Delete Name</button>
+      <button id="btn-send-name" class="p-2 bg-blue-200 rounded-md">Send Name</button>
+    </div>
+    <div>
+      <p>Email</p>
+      <input type="" class="border-2"  id="email-field"/>
+      <button id="btn-delete-email" class="p-2 bg-blue-200 rounded-md">Delete Email</button>
+      <button id="btn-send-email" class="p-2 bg-blue-200 rounded-md">Send Email</button>
+    </div>
+    <div>
+      <p>Message</p>
+      <textarea name=""  cols="30" rows="4" class="border-2" id="message-field"></textarea>
+      <!-- <input type="text" class="h-36 border-4"> -->
+      <button id="btn-delete-message" class="p-2 bg-blue-200 rounded-md">Delete Message</button>
+      <button id="btn-send-message" class="p-2 bg-blue-200 rounded-md">Send Message</button>
+    </div>
+    <button id="btn-reset" class="p-2 bg-red-400 rounded-md">Reset</button>
+    <button id="btn-send" class="p-2 bg-red-400 rounded-md">Send</button>
+    <script src="contactInfo.js"></script>
+  </body>
+</html>

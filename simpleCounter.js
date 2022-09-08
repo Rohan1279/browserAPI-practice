@@ -19,5 +19,4 @@ document.getElementById('btn-clear').addEventListener('click',()=>{
 })
 const setNumberFieldValue = (count) => {
     numberField.innerText = count;
-  
 }
